@@ -2,7 +2,7 @@ angular
     .module('authService', [])
     .factory('Auth', function($http, $q, AuthToken){
         var authFactory = {};
-
+// getting Security token for user
         authFactory.login = function(username, password){
 
             console.log(username + " " + password);
